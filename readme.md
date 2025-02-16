@@ -23,3 +23,10 @@ vec3 pallete(float t){
 	return a + b*cos(6.28318*(c+t+d));
 }
 ```
+
+# How to Install (MacOS only)
+1. Have [go](https://go.dev/doc/install) installed
+2. Clone repo: `git clone https://github.com/arturovilla/glcp.git`
+3. Build the program: `go build -o glcp`
+4. Move the binary into your bin: `mv glcp /usr/local/bin/`
+5. Give the file needed permissions `chmod +x /usr/local/bin/glcp` 
